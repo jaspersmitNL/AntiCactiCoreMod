@@ -65,13 +65,16 @@ public class AntiCactiClassTransformer implements IClassTransformer {
                         }
                     }
                 }
+                
+                //DONT USE THIS METHOD ITS BAD :W
+                /*
                 if (targetNode != null && isBadMethod) {
 
 
                     for (int i = 0; i < 5; i++) {
                         targetNode = targetNode.getNext();
                         method.instructions.remove(targetNode.getPrevious());
-                    }
+                    } */
 
 
 
